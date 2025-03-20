@@ -4,7 +4,7 @@ import formatCurrency from '../utils/money.js';
 import {deliveryOptions,  getDeliveryOptionId, calculateDeliveryDate} from '../../data/delivery-option.js';
 import { renderPaymentSummary } from './payment-summary.js';
 import { renderCheckoutHeader } from './checkoutHeader.js';
-import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
+import dayjs from "dayjs";
 
 export function renderOrderSummary(){
 
