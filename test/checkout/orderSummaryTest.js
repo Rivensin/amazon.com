@@ -1,7 +1,7 @@
 import { renderOrderSummary } from "../../scripts/checkout/order-summary.js";
 import { renderPaymentSummary } from "../../scripts/checkout/payment-summary.js";
 import { cart } from "../../data/cart-class.js";
-import { Product, loadProducts, loadProductFetch } from "../../data/products.js";
+import { Product, loadProductFetch } from "../../data/products.js";
 
 describe('test suite:renderOrderSummary', () => {
   const productId1 = 'e43638ce-6aa0-4b85-b27f-e1d07eb678c6';

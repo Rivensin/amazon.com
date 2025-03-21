@@ -1,6 +1,6 @@
 import { getOrder, orders, getProductDetails } from "../data/orders.js";
 import { products, loadProductFetch} from "../data/products.js";
-import dayjs from "https://esm.sh/dayjs";
+import dayjs from 'dayjs';
 
 const url = new URL(window.location.href)
 const orderIdUrl = url.searchParams.get('orderId');

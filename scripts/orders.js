@@ -2,7 +2,7 @@ import { orders } from "../data/orders.js";
 import { products, loadProductFetch, getProduct } from "../data/products.js";
 import { cart } from "../data/cart-class.js";
 import { updateCartQuantity } from "./amazon.js"
-import dayjs from "https://esm.sh/dayjs";
+import dayjs from 'dayjs';
 
 new Promise(async() => {
   try{
