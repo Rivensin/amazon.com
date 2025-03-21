@@ -28,12 +28,14 @@ function renderProductsGrid(){
   }
     
   filteredProducts.forEach(product => {
+    const image = `${import.meta.env.BASE_URL}${product.image}`;
+    console.log(image)
     productHTML+=
     ` 
       <div class="product-container">
         <div class="product-image-container">
           <img class="product-image"
-            src="${product.image}">
+            src="${image}">
         </div>
 
         <div class="product-name limit-text-to-2-lines">
