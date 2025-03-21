@@ -29,7 +29,6 @@ function renderProductsGrid(){
     
   filteredProducts.forEach(product => {
     const image = `${import.meta.env.BASE_URL}${product.image}`;
-    console.log(image)
     productHTML+=
     ` 
       <div class="product-container">
