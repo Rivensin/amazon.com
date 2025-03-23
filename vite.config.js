@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import path from "path";
 
 export default defineConfig({
-  base: "/", 
+  base: "/amazon.com/", 
   publicDir: "../public",
   root : "src",
   build: {
