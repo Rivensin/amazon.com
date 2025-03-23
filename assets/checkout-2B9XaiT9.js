@@ -1,0 +1,1 @@
+import{l as r}from"./orders-CBA0M2t7.js";import{r as e,a,b as o}from"./checkoutHeader-HEDuh_7p.js";async function t(){try{await Promise.all([r()])}catch{console.log("unexpected error. please try again later.")}e(),a(),o()}t();
